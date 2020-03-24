@@ -25,5 +25,5 @@ public class SoloView extends JFrame{
         this.add(gamePanel);
     }
 
-    
+
 }
