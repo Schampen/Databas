@@ -27,7 +27,7 @@ public class Databas {
                 ResultSet cset = stmt.executeQuery(choices);
                 while (cset.next()) {
                     String description = cset.getString("description");
-                    
+
                     int target_id = cset.getInt("target_id");
 
                 }
